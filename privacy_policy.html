@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Smart Form Filler</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #f7f7f7;
+      color: #1a1a1a;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      border: 1.5px solid #ebebeb;
+      overflow: hidden;
+    }
+    .top-bar {
+      background: #C0392B;
+      padding: 24px 32px;
+      color: #fff;
+    }
+    .top-bar h1 { font-size: 22px; font-weight: 700; }
+    .top-bar p  { font-size: 13px; color: #ffcccc; margin-top: 4px; }
+    .body { padding: 32px; display: flex; flex-direction: column; gap: 24px; }
+    h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #C0392B;
+      margin-bottom: 8px;
+      padding-bottom: 6px;
+      border-bottom: 1.5px solid #f5e0e0;
+    }
+    p  { font-size: 14px; color: #444; line-height: 1.75; }
+    ul { padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+    li { font-size: 14px; color: #444; line-height: 1.7; }
+    .highlight {
+      background: #EAF3DE;
+      border-left: 3px solid #27AE60;
+      border-radius: 7px;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #1a4a1a;
+      font-weight: 600;
+    }
+    .footer-note {
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+      padding: 16px 32px;
+      border-top: 1px solid #f0f0f0;
+    }
+    a { color: #C0392B; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="top-bar">
+      <h1>Privacy Policy</h1>
+      <p>Smart Form Filler Chrome Extension &nbsp;&middot;&nbsp; Last updated: June 2026</p>
+    </div>
+
+    <div class="body">
+
+      <div class="highlight">
+        &#10003; Smart Form Filler does not collect, transmit, or share any personal data. Ever.
+      </div>
+
+      <section>
+        <h2>1. Overview</h2>
+        <p>
+          Smart Form Filler is a Chrome browser extension that helps you automatically fill web
+          forms using profiles and general details you save yourself. This privacy policy explains
+          what data the extension stores, where it is stored, and how it is used.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Data We Collect</h2>
+        <p>We do not collect any data. The extension only stores information that you explicitly
+        enter, including:</p>
+        <ul>
+          <li>Profile details (name, age, gender, photo ID type and number)</li>
+          <li>General details (email address, city, state, country, pincode)</li>
+          <li>Custom field alias configurations</li>
+        </ul>
+        <p style="margin-top:10px;">
+          All of this information is stored exclusively in your browser's local storage using the
+          Chrome <code>storage.local</code> API. It never leaves your device.
+        </p>
+      </section>
+
+      <section>
+        <h2>3. Data Transmission</h2>
+        <p>
+          Smart Form Filler does <strong>not</strong> transmit any data to any external server,
+          third party, analytics service, or remote endpoint. There are no network requests made
+          by this extension — not even for updates or telemetry.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. Permissions Explained</h2>
+        <ul>
+          <li>
+            <strong>activeTab</strong> — Used to interact with the current tab's form inputs
+            when you click "Fill Page Now". The extension cannot access tabs you haven't opened
+            or pages you haven't visited.
+          </li>
+          <li>
+            <strong>storage</strong> — Used to save your profiles, general details, and alias
+            settings locally on your device using Chrome's built-in storage API.
+          </li>
+          <li>
+            <strong>host_permissions (&lt;all_urls&gt;)</strong> — Required so the extension's
+            content script can detect and fill form inputs on any website you visit. This
+            permission is used solely to read and write form field values on pages you navigate to.
+            No page content is stored or transmitted.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Third-Party Services</h2>
+        <p>
+          This extension does not use any third-party services, SDKs, analytics libraries,
+          or advertising networks.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Data Deletion</h2>
+        <p>
+          You can delete all stored data at any time by clicking the <strong>Clear All</strong>
+          button in the extension popup, or by uninstalling the extension. Uninstalling removes
+          all locally stored data permanently.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Children's Privacy</h2>
+        <p>
+          This extension is not directed at children under the age of 13. We do not knowingly
+          collect information from children.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Changes to This Policy</h2>
+        <p>
+          If we update this privacy policy, the updated version will be published at this URL
+          with a revised date. Continued use of the extension after any changes constitutes
+          acceptance of the updated policy.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Contact</h2>
+        <p>
+          If you have any questions about this privacy policy, please contact us at:<br />
+          <a href="mailto:bfm.customer.care@gmail.com">bfm.customer.care@gmail.com</a>
+        </p>
+      </section>
+
+    </div>
+
+    <div class="footer-note">
+      Smart Form Filler &nbsp;&middot;&nbsp; All data stored locally &nbsp;&middot;&nbsp;
+      No tracking &nbsp;&middot;&nbsp; No servers
+    </div>
+
+  </div>
+</body>
+</html>
